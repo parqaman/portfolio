@@ -4,6 +4,10 @@
     font-family: Raleway, sans-serif;
   }
   
+  body{
+    background-color: #303841;
+  }
+
   .nav-bar {
     background-color: #be3144;
     width: 100%;
@@ -64,11 +68,14 @@
   }
   
   #projects-intro {
-    padding: 5rem;
-    font-size: 1.5rem;
+    padding: 5rem 0 5rem 0;
     text-align: center;
   }
-  
+
+  #projects-intro > h1 {
+    font-size: min(4.5vw, 2rem);
+  }
+
   hr {
     width:100%;
     text-align:left;

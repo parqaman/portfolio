@@ -93,7 +93,6 @@
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     width: 100%;
     max-width: 75em;
   }
@@ -146,7 +145,7 @@
   
   #contact {
     background-color: #303841;
-    height: 90vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,11 +176,11 @@
   }
   
   .contact-tile > a >img{
-    width: min(5vw, 3em);;
+    width: min(6vw, 3em);;
   }
   
   .contact-tile > a > p{
-    font-size: min(5vw, 1.5rem);
+    font-size: min(4vw, 1.5rem);
     margin-left: 0.5rem;
     width: 60%;
   }
@@ -208,7 +207,6 @@
       display: grid;
       gap: 1.5rem;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       max-width: 90%;
     }
    
@@ -237,7 +235,6 @@
       display: grid;
       gap: 1.5rem;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
       max-width: 90%;
     }
     .project-tile > a > p {

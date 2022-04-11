@@ -4,6 +4,10 @@
     font-family: Raleway, sans-serif;
   }
   
+  html{
+    scroll-behavior: smooth;
+  }
+
   body{
     background-color: #303841;
   }
@@ -31,6 +35,7 @@
     color: white;
     text-decoration: none;
     margin: 1rem;
+    transition-delay: 5s;
   }
   
   main {
@@ -153,8 +158,8 @@
   }
   
   #contact-intro > p{
-    font-size: min(6vw, 2.5rem);;
-}
+    font-size: min(6vw, 2.5rem);
+  }
   
   .contact-links {
     display: flex;
@@ -177,7 +182,7 @@
   
   .contact-tile > a > p{
     font-size: min(5vw, 1.5rem);
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     width: 60%;
   }
   
